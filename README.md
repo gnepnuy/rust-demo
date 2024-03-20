@@ -1,1 +1,1 @@
-# rust-demo
+课程：https://rustwiki.org/zh-CN/book/
