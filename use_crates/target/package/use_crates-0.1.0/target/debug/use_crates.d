@@ -1,1 +1,1 @@
-E:\workspace\rust-demo\use_crates\target\debug\use_crates.exe: E:\workspace\rust-demo\use_crates\src\main.rs
+E:\workspace\rust-demo\use_crates\target\package\use_crates-0.1.0\target\debug\use_crates.exe: E:\workspace\rust-demo\use_crates\target\package\use_crates-0.1.0\src\lib.rs E:\workspace\rust-demo\use_crates\target\package\use_crates-0.1.0\src\main.rs
