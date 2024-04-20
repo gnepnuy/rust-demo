@@ -45,13 +45,53 @@ fn main() {
 
 
     //使用 extern 函数调用外部代码
+
+    // unsafe {
+    //     println!("Absolute value of -3 according to C: {}",abs(-3));
+    // }
+
+    //访问或修改可变静态变量
+    // println!("name is: {}",HELLO_WORLD);
     
+    // add_to_count(3);
 
+    // unsafe {
+    //     println!("COUNTER: {}",COUNTER);
+    // }
 
+    //实现不安全 trait
 
 
 
 }
+
+
+unsafe trait Foo {
+
+}
+
+unsafe impl Foo for i32 {
+    
+}
+
+// fn add_to_count(inc: u32) {
+//     unsafe {
+//         COUNTER += inc;
+//     }
+// }
+
+// static mut COUNTER: u32 = 0;
+
+// static HELLO_WORLD: &str = "Hello, world!";
+
+// #[no_mangle]
+// pub extern "C" fn call_from_c() {
+//     println!("Just called a rust function from c");
+// }
+
+// extern "C" {
+//     fn abs(input: i32) -> i32;
+// }
 
 
 // use std::slice; 
